@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-card: #111111;
+  --border: #222222;
+  --accent-gold: #c8a96e;
+  --text-primary: #f0f0f0;
+  --text-secondary: #888888;
+
+  --font-serif: 'Noto Serif SC', serif;
+  --font-sans: 'Noto Sans SC', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-gold {
+  color: var(--accent-gold);
+}
+
+.bg-gold {
+  background-color: var(--accent-gold);
+}
+
+.border-gold {
+  border-color: var(--accent-gold);
+}
+
+.bg-card {
+  background-color: var(--bg-card);
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Image desaturation effect */
+.img-desaturate {
+  filter: saturate(0.8);
+  transition: filter 0.3s ease;
+}
+
+.img-desaturate:hover {
+  filter: saturate(1);
+}
+
+/* Gold left border on hover */
+.card-hover {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card-hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--accent-gold);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover::before {
+  transform: scaleY(1);
+}
+
+/* Quote block styling */
+.quote-block {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--accent-gold);
+  border-left: 3px solid var(--accent-gold);
+  padding-left: 1.5rem;
+}
+
+/* Masonry grid */
+.masonry-grid {
+  column-count: 4;
+  column-gap: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
