@@ -49,6 +49,46 @@ export const photographers = [
         camera: "Leica III",
         technique: "螺旋构图与动态模糊",
         significance: "展示了运动与静止、曲线与直线的完美对比。"
+      },
+      {
+        id: "hcb-003",
+        title: { zh: "男孩与酒瓶", en: "Rue Mouffetard, Paris" },
+        year: 1954,
+        location: { zh: "法国巴黎", en: "Paris, France" },
+        image: "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=800",
+        camera: "Leica M3",
+        technique: "街头抓拍，捕捉童真与自豪的瞬间表情",
+        significance: "展示了布列松捕捉人物神态的非凡能力，成为街头摄影的经典之作。"
+      },
+      {
+        id: "hcb-004",
+        title: { zh: "西班牙塞维利亚", en: "Seville, Spain" },
+        year: 1933,
+        location: { zh: "西班牙塞维利亚", en: "Seville, Spain" },
+        image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800",
+        camera: "Leica III",
+        technique: "利用墙上的破洞形成天然画框",
+        significance: "框中框构图的经典示范，展示了如何利用环境元素创造视觉层次。"
+      },
+      {
+        id: "hcb-005",
+        title: { zh: "马丁内斯·阿隆索", en: "Martine's Legs" },
+        year: 1967,
+        location: { zh: "法国", en: "France" },
+        image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=800",
+        camera: "Leica M4",
+        technique: "极简构图，利用光影与身体线条",
+        significance: "展示了布列松晚期作品中对形式美的追求。"
+      },
+      {
+        id: "hcb-006",
+        title: { zh: "北京紫禁城", en: "Forbidden City, Beijing" },
+        year: 1948,
+        location: { zh: "中国北京", en: "Beijing, China" },
+        image: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800",
+        camera: "Leica III",
+        technique: "大场景纪实，人群与建筑的对比",
+        significance: "记录了中国历史转折时期的珍贵影像。"
       }
     ],
     gear: {
@@ -865,6 +905,359 @@ export const photographers = [
     gear: { cameras: ["大画幅相机"], lenses: ["多焦段"], films: ["黑白负片"], techniques: ["集锦摄影", "暗房合成"] },
     practice: ["研究中国山水画的构图原则", "尝试在后期创造意境"],
     resources: { books: ["郎静山摄影全集"], films: [] }
+  },
+  {
+    id: "josef-koudelka",
+    name: { zh: "约瑟夫·寇德卡", en: "Josef Koudelka" },
+    nationality: "捷克",
+    flag: "🇨🇿",
+    birth: 1938,
+    death: null,
+    era: "1980-2000",
+    genres: ["纪实", "街头"],
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    quote: "我不寻找，我发现。",
+    bio: [
+      "约瑟夫·寇德卡是当代最重要的纪实摄影师之一，以记录吉普赛人和1968年布拉格之春而闻名。",
+      "他出生于捷克斯洛伐克，1968年拍摄苏联入侵布拉格的照片震惊世界，随后流亡西方。",
+      "他的全景摄影项目记录了欧洲的工业废墟和边境地带，展现了独特的史诗视野。"
+    ],
+    philosophy: [
+      "极端宽幅：全景相机展现壮阔场景",
+      "边缘人群：关注社会边缘的生存状态",
+      "流浪精神：以流浪者视角观察世界",
+      "黑白坚持：始终坚持黑白摄影的纯粹"
+    ],
+    quotes: ["我没有家，但我并不迷失。", "照片不会改变世界，但可以展示世界，尤其是世界在变化的时候。"],
+    influencedBy: ["henri-cartier-bresson"],
+    influenced: [],
+    works: [
+      { id: "jk-001", title: { zh: "布拉格之春", en: "Prague 1968" }, year: 1968, location: { zh: "捷克布拉格", en: "Prague, Czechoslovakia" }, image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800", camera: "Rolleiflex", technique: "街头抓拍，历史瞬间", significance: "记录苏联入侵布拉格的历史性时刻。" },
+      { id: "jk-002", title: { zh: "吉普赛人", en: "Gypsies" }, year: 1975, location: { zh: "欧洲各地", en: "Europe" }, image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800", camera: "Leica M4", technique: "长期跟踪，深度纪实", significance: "对吉普赛文化的深刻记录。" },
+      { id: "jk-003", title: { zh: "流亡者", en: "Exiles" }, year: 1988, location: { zh: "欧洲", en: "Europe" }, image: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=800", camera: "Leica M6", technique: "边缘视角，孤独感", significance: "表达流亡者的精神状态。" },
+      { id: "jk-004", title: { zh: "混沌", en: "Chaos" }, year: 1999, location: { zh: "欧洲工业区", en: "Industrial Europe" }, image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800", camera: "Fuji GX617", technique: "全景摄影，工业废墟", significance: "对工业文明衰落的反思。" },
+      { id: "jk-005", title: { zh: "手表", en: "The Watch" }, year: 1968, location: { zh: "捷克布拉格", en: "Prague" }, image: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800", camera: "Rolleiflex", technique: "象征性构图", significance: "成为布拉格之春的标志性影像。" },
+      { id: "jk-006", title: { zh: "罗马尼亚吉普赛人", en: "Romanian Gypsies" }, year: 1968, location: { zh: "罗马尼亚", en: "Romania" }, image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800", camera: "Leica M3", technique: "环境肖像", significance: "展示吉普赛人的家庭生活。" },
+      { id: "jk-007", title: { zh: "斯洛伐克节日", en: "Slovak Festival" }, year: 1966, location: { zh: "斯洛伐克", en: "Slovakia" }, image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800", camera: "Rolleiflex", technique: "节日纪实", significance: "记录东欧民间传统。" },
+      { id: "jk-008", title: { zh: "西班牙边境", en: "Spanish Border" }, year: 1995, location: { zh: "西班牙", en: "Spain" }, image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800", camera: "Fuji GX617", technique: "全景风光", significance: "边境地带的荒凉美学。" },
+      { id: "jk-009", title: { zh: "法国矿区", en: "French Mining Region" }, year: 1990, location: { zh: "法国", en: "France" }, image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800", camera: "Fuji GX617", technique: "全景工业摄影", significance: "记录后工业时代的景观。" },
+      { id: "jk-010", title: { zh: "葡萄牙海岸", en: "Portuguese Coast" }, year: 2000, location: { zh: "葡萄牙", en: "Portugal" }, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", camera: "Fuji GX617", technique: "极简海景", significance: "全景摄影的诗意表达。" }
+    ],
+    gear: { cameras: ["Leica M4", "Leica M6", "Fuji GX617全景相机", "Rolleiflex"], lenses: ["25mm", "35mm", "全景镜头"], films: ["Kodak Tri-X"], techniques: ["全景摄影", "黑白冲洗", "长期项目"] },
+    practice: ["尝试全景构图思维", "花数月甚至数年跟踪一个主题", "关注社会边缘群体"],
+    resources: { books: ["Gypsies", "Exiles", "Chaos", "Invasion 68: Prague"], films: ["Koudelka Shooting Holy Land"] }
+  },
+  {
+    id: "william-klein",
+    name: { zh: "威廉·克莱因", en: "William Klein" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1926,
+    death: 2022,
+    era: "1950-1980",
+    genres: ["街头", "时尚"],
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    quote: "我想要展示摄影能做的一切。",
+    bio: [
+      "威廉·克莱因是美国摄影师和电影制作人，以激进的街头摄影风格闻名。",
+      "他打破了传统摄影的规则，使用广角镜头、模糊、高对比度和粗颗粒创造独特视觉语言。",
+      "他的纽约摄影集改变了人们对城市摄影的理解，同时他在时尚摄影领域也极具影响力。"
+    ],
+    philosophy: [
+      "打破规则：模糊、失焦、粗颗粒都是表达工具",
+      "街头侵略：近距离、直接、不回避冲突",
+      "广角变形：用超广角创造戏剧性透视",
+      "反精致：拒绝传统的'美丽'照片"
+    ],
+    quotes: ["我对完美不感兴趣。", "摄影就像拳击，你必须主动出击。"],
+    influencedBy: [],
+    influenced: ["daido-moriyama"],
+    works: [
+      { id: "wk-001", title: { zh: "纽约枪", en: "Gun, New York" }, year: 1955, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800", camera: "Leica M3", technique: "直接面对，戏剧性瞬间", significance: "街头摄影的标志性作品。" },
+      { id: "wk-002", title: { zh: "百老汇与103街", en: "Broadway and 103rd Street" }, year: 1954, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800", camera: "Leica M3", technique: "广角街头", significance: "展示纽约街头的混乱能量。" },
+      { id: "wk-003", title: { zh: "舞者", en: "Dancers" }, year: 1955, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800", camera: "Leica M3", technique: "动态模糊", significance: "捕捉运动的能量。" },
+      { id: "wk-004", title: { zh: "时装模特", en: "Fashion Model" }, year: 1960, location: { zh: "法国巴黎", en: "Paris, France" }, image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800", camera: "Hasselblad", technique: "动态时尚", significance: "革新了时尚摄影的表现方式。" },
+      { id: "wk-005", title: { zh: "罗马", en: "Rome" }, year: 1956, location: { zh: "意大利罗马", en: "Rome, Italy" }, image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800", camera: "Leica M3", technique: "城市纪实", significance: "罗马城市摄影项目。" },
+      { id: "wk-006", title: { zh: "东京", en: "Tokyo" }, year: 1961, location: { zh: "日本东京", en: "Tokyo, Japan" }, image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800", camera: "Leica M3", technique: "高对比度街头", significance: "对东京的独特视角。" },
+      { id: "wk-007", title: { zh: "模糊的面孔", en: "Blurred Faces" }, year: 1955, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800", camera: "Leica M3", technique: "故意失焦", significance: "用模糊创造情绪。" },
+      { id: "wk-008", title: { zh: "圣诞购物者", en: "Christmas Shoppers" }, year: 1954, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1482330454287-3f883d121e28?w=800", camera: "Leica M3", technique: "人群纪实", significance: "消费文化的视觉批评。" }
+    ],
+    gear: { cameras: ["Leica M3", "Hasselblad", "广角相机"], lenses: ["21mm", "28mm"], films: ["Kodak Tri-X"], techniques: ["推高感光度", "广角变形", "故意失焦"] },
+    practice: ["使用21mm或28mm超广角拍摄", "靠近被摄者，不要害怕冲突", "尝试故意的'技术错误'"],
+    resources: { books: ["New York", "Rome", "Moscow", "Tokyo"], films: ["Who Are You, Polly Maggoo?"] }
+  },
+  {
+    id: "garry-winogrand",
+    name: { zh: "盖瑞·温诺格兰德", en: "Garry Winogrand" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1928,
+    death: 1984,
+    era: "1950-1980",
+    genres: ["街头"],
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+    quote: "我拍照是为了看看事物被拍下来是什么样子。",
+    bio: [
+      "盖瑞·温诺格兰德是美国街头摄影的代表人物，以大量、快速的拍摄方式著称。",
+      "他拍摄了超过100万张照片，去世时留下2500卷未冲洗的胶卷。",
+      "他的作品记录了美国社会的方方面面，被认为是美国摄影的重要文献。"
+    ],
+    philosophy: [
+      "大量拍摄：数量带来质量的可能",
+      "倾斜地平线：打破传统构图规则",
+      "不加判断：记录而非评论",
+      "生活本身：摄影是对生活的好奇"
+    ],
+    quotes: ["我对'决定性瞬间'不感兴趣，我对生活感兴趣。", "摄影不是关于你拍摄的东西，而是关于如何看待它们。"],
+    influencedBy: ["robert-frank"],
+    influenced: [],
+    works: [
+      { id: "gw-001", title: { zh: "世界博览会", en: "World's Fair" }, year: 1964, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800", camera: "Leica M4", technique: "人群中的瞬间", significance: "捕捉美国乐观主义的顶峰。" },
+      { id: "gw-002", title: { zh: "动物园", en: "Zoo" }, year: 1967, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=800", camera: "Leica M4", technique: "人与动物的互动", significance: "探索人与自然的关系。" },
+      { id: "gw-003", title: { zh: "机场", en: "Airport" }, year: 1968, location: { zh: "美国洛杉矶", en: "Los Angeles, USA" }, image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800", camera: "Leica M4", technique: "公共空间纪实", significance: "记录美国机场文化。" },
+      { id: "gw-004", title: { zh: "洛杉矶", en: "Los Angeles" }, year: 1969, location: { zh: "美国洛杉矶", en: "Los Angeles, USA" }, image: "https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=800", camera: "Leica M4", technique: "汽车文化", significance: "洛杉矶汽车文化的视觉记录。" },
+      { id: "gw-005", title: { zh: "达拉斯", en: "Dallas" }, year: 1964, location: { zh: "美国达拉斯", en: "Dallas, USA" }, image: "https://images.unsplash.com/photo-1545987796-200677ee1011?w=800", camera: "Leica M4", technique: "街头随拍", significance: "美国南方城市的面貌。" },
+      { id: "gw-006", title: { zh: "女人是美丽的", en: "Women Are Beautiful" }, year: 1975, location: { zh: "美国各地", en: "USA" }, image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800", camera: "Leica M4", technique: "街头女性肖像", significance: "对女性美的直接赞颂。" },
+      { id: "gw-007", title: { zh: "中央公园", en: "Central Park" }, year: 1971, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800", camera: "Leica M4", technique: "公园休闲场景", significance: "纽约人的日常生活。" },
+      { id: "gw-008", title: { zh: "硬帽子集会", en: "Hard Hat Rally" }, year: 1970, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800", camera: "Leica M4", technique: "政治集会纪实", significance: "记录美国政治分裂。" }
+    ],
+    gear: { cameras: ["Leica M4", "Leica M2"], lenses: ["28mm f/2.8"], films: ["Kodak Tri-X"], techniques: ["区域对焦", "倾斜构图", "快速拍摄"] },
+    practice: ["每天拍摄至少2卷胶片", "不要等待'完美'时刻", "尝试倾斜地平线构图"],
+    resources: { books: ["The Animals", "Women Are Beautiful", "Public Relations"], films: [] }
+  },
+  {
+    id: "lee-friedlander",
+    name: { zh: "李·弗里德兰德", en: "Lee Friedlander" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1934,
+    death: null,
+    era: "1950-1980",
+    genres: ["街头", "纪实"],
+    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop",
+    quote: "我只是在观察——我不控制任何东西。",
+    bio: [
+      "李·弗里德兰德是美国社会景观摄影的先驱，以复杂的视觉结构著称。",
+      "他的作品常常包含反射、阴影和多层视觉元素，创造了独特的'社会景观'美学。",
+      "他是新纪实摄影运动的代表人物之一，对当代摄影有深远影响。"
+    ],
+    philosophy: [
+      "社会景观：将城市环境作为复杂系统记录",
+      "自我在场：将自己的影子和倒影纳入画面",
+      "复杂构图：层叠、反射、遮挡的视觉结构",
+      "持续观察：对同一主题的长期关注"
+    ],
+    quotes: ["照片中最重要的元素可能是你没有注意到的。"],
+    influencedBy: ["walker-evans"],
+    influenced: [],
+    works: [
+      { id: "lf-001", title: { zh: "自拍", en: "Self Portrait" }, year: 1966, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800", camera: "Leica M3", technique: "倒影自拍", significance: "将自己纳入社会景观。" },
+      { id: "lf-002", title: { zh: "纽约市", en: "New York City" }, year: 1965, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800", camera: "Leica M3", technique: "橱窗反射", significance: "城市作为视觉迷宫。" },
+      { id: "lf-003", title: { zh: "美国纪念碑", en: "American Monuments" }, year: 1976, location: { zh: "美国各地", en: "USA" }, image: "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=800", camera: "Hasselblad", technique: "公共雕塑与环境", significance: "对美国公共空间的反思。" },
+      { id: "lf-004", title: { zh: "工厂谷", en: "Factory Valleys" }, year: 1982, location: { zh: "美国宾夕法尼亚", en: "Pennsylvania, USA" }, image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800", camera: "Hasselblad", technique: "工业景观", significance: "美国制造业的视觉记录。" },
+      { id: "lf-005", title: { zh: "电视屏幕", en: "TV Screen" }, year: 1963, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=800", camera: "Leica M3", technique: "媒体与现实的叠加", significance: "探索电视时代的视觉文化。" },
+      { id: "lf-006", title: { zh: "树", en: "Trees" }, year: 2000, location: { zh: "美国各地", en: "USA" }, image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=800", camera: "Hasselblad", technique: "自然细节", significance: "对自然形态的长期研究。" },
+      { id: "lf-007", title: { zh: "汽车与城市", en: "Cars and Cities" }, year: 1970, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800", camera: "Leica M3", technique: "汽车作为构图元素", significance: "美国汽车文化的视觉研究。" },
+      { id: "lf-008", title: { zh: "人群", en: "Crowd" }, year: 1971, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800", camera: "Leica M3", technique: "人群中的个体", significance: "城市生活的社会学观察。" }
+    ],
+    gear: { cameras: ["Leica M3", "Hasselblad Superwide", "大画幅相机"], lenses: ["35mm", "50mm"], films: ["Kodak Plus-X", "Tri-X"], techniques: ["区域对焦", "复杂构图"] },
+    practice: ["在反射和阴影中寻找自己", "关注城市中的视觉层次", "长期拍摄同一主题"],
+    resources: { books: ["The American Monument", "Self Portrait", "Sticks and Stones"], films: [] }
+  },
+  {
+    id: "elliott-erwitt",
+    name: { zh: "艾略特·厄威特", en: "Elliott Erwitt" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1928,
+    death: 2023,
+    era: "1950-1980",
+    genres: ["街头", "人文"],
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    quote: "寻找你能笑的照片。",
+    bio: [
+      "艾略特·厄威特是美国最具幽默感的摄影师之一，玛格南图片社成员。",
+      "他以捕捉生活中的荒诞和温情时刻著称，同时也是出色的商业摄影师。",
+      "他的狗系列照片尤其受欢迎，展现了他对日常生活中人性和动物性的敏锐观察。"
+    ],
+    philosophy: [
+      "幽默感：在日常中发现滑稽和荒诞",
+      "人性温暖：即使批评也带着温情",
+      "狗的视角：通过动物观察人类",
+      "简洁表达：一张照片讲一个笑话"
+    ],
+    quotes: ["摄影的要点是保持观看和保持感觉。", "好照片就像一个好笑话。"],
+    influencedBy: ["henri-cartier-bresson"],
+    influenced: [],
+    works: [
+      { id: "ee-001", title: { zh: "加州之吻", en: "California Kiss" }, year: 1955, location: { zh: "美国加州", en: "California, USA" }, image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800", camera: "Leica M3", technique: "后视镜浪漫", significance: "美国浪漫主义的标志性影像。" },
+      { id: "ee-002", title: { zh: "斗牛犬", en: "Bulldog" }, year: 1962, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=800", camera: "Leica M3", technique: "低角度狗视角", significance: "狗系列中最著名的作品。" },
+      { id: "ee-003", title: { zh: "尼克松与赫鲁晓夫", en: "Nixon and Khrushchev" }, year: 1959, location: { zh: "苏联莫斯科", en: "Moscow, USSR" }, image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800", camera: "Leica M3", technique: "政治人物互动", significance: "著名的'厨房辩论'历史记录。" },
+      { id: "ee-004", title: { zh: "玛丽莲·梦露", en: "Marilyn Monroe" }, year: 1956, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800", camera: "Rolleiflex", technique: "片场肖像", significance: "展现明星的私下一面。" },
+      { id: "ee-005", title: { zh: "巴黎情侣", en: "Paris Couple" }, year: 1989, location: { zh: "法国巴黎", en: "Paris, France" }, image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800", camera: "Leica M6", technique: "街头抓拍", significance: "巴黎浪漫的视觉象征。" },
+      { id: "ee-006", title: { zh: "跳舞的腿", en: "Dancing Legs" }, year: 1963, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800", camera: "Leica M3", technique: "局部截取", significance: "用简单元素表达欢乐。" },
+      { id: "ee-007", title: { zh: "奇瓦瓦与大丹", en: "Chihuahua and Great Dane" }, year: 1962, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800", camera: "Leica M3", technique: "视觉对比", significance: "用大小对比创造幽默。" },
+      { id: "ee-008", title: { zh: "海滩上的狗", en: "Dog on Beach" }, year: 1968, location: { zh: "法国", en: "France" }, image: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=800", camera: "Leica M4", technique: "海滩剪影", significance: "诗意的动物摄影。" }
+    ],
+    gear: { cameras: ["Leica M3", "Leica M4", "Leica M6", "Rolleiflex"], lenses: ["35mm", "50mm"], films: ["Kodak Tri-X"], techniques: ["快速反应", "低角度", "幽默视角"] },
+    practice: ["观察人与宠物的互动", "寻找生活中的荒诞时刻", "学会等待笑点出现"],
+    resources: { books: ["Snaps", "Son of Bitch", "Dogs", "Personal Exposures"], films: [] }
+  },
+  {
+    id: "bruce-davidson",
+    name: { zh: "布鲁斯·戴维森", en: "Bruce Davidson" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1933,
+    death: null,
+    era: "1950-1980",
+    genres: ["纪实", "街头"],
+    avatar: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=200&h=200&fit=crop",
+    quote: "我想靠近人们，理解他们的生活。",
+    bio: [
+      "布鲁斯·戴维森是美国纪实摄影的重要人物，玛格南图片社成员。",
+      "他以深入社会边缘群体的长期项目著称，如纽约地铁和布鲁克林帮派。",
+      "他的作品展现了对被边缘化群体的深刻同情和理解。"
+    ],
+    philosophy: [
+      "深度介入：与拍摄对象建立长期关系",
+      "社会关怀：关注被忽视的社区",
+      "彩色转型：从黑白到彩色的大胆尝试",
+      "尊严呈现：展现边缘人群的人性尊严"
+    ],
+    quotes: ["我必须与我拍摄的人建立关系。"],
+    influencedBy: [],
+    influenced: [],
+    works: [
+      { id: "bd-001", title: { zh: "纽约地铁", en: "Subway" }, year: 1980, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800", camera: "Leica M4", technique: "彩色纪实，人造光", significance: "彩色纪实摄影的里程碑。" },
+      { id: "bd-002", title: { zh: "布鲁克林帮派", en: "Brooklyn Gang" }, year: 1959, location: { zh: "美国纽约布鲁克林", en: "Brooklyn, New York" }, image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800", camera: "Leica M3", technique: "青少年亚文化纪实", significance: "对边缘青年的深刻记录。" },
+      { id: "bd-003", title: { zh: "东100街", en: "East 100th Street" }, year: 1970, location: { zh: "美国纽约哈莱姆", en: "Harlem, New York" }, image: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800", camera: "大画幅相机", technique: "社区深度纪实", significance: "对贫困社区的人道主义记录。" },
+      { id: "bd-004", title: { zh: "民权运动", en: "Civil Rights Movement" }, year: 1965, location: { zh: "美国南方", en: "American South" }, image: "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800", camera: "Leica M3", technique: "历史事件纪实", significance: "民权运动的重要视觉记录。" },
+      { id: "bd-005", title: { zh: "威尔士矿工", en: "Welsh Miners" }, year: 1965, location: { zh: "英国威尔士", en: "Wales, UK" }, image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800", camera: "Leica M3", technique: "工人阶级纪实", significance: "记录即将消失的矿工文化。" },
+      { id: "bd-006", title: { zh: "中央公园", en: "Central Park" }, year: 1995, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800", camera: "Leica M6", technique: "彩色风景人文", significance: "城市绿洲的四季记录。" },
+      { id: "bd-007", title: { zh: "马戏团", en: "Circus" }, year: 1958, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?w=800", camera: "Leica M3", technique: "后台纪实", significance: "马戏团生活的私密视角。" },
+      { id: "bd-008", title: { zh: "自由乘车运动", en: "Freedom Riders" }, year: 1961, location: { zh: "美国南方", en: "American South" }, image: "https://images.unsplash.com/photo-1568792923760-d70635a89fdc?w=800", camera: "Leica M3", technique: "社会运动纪实", significance: "记录争取平等的勇气。" }
+    ],
+    gear: { cameras: ["Leica M3", "Leica M4", "Leica M6", "大画幅相机"], lenses: ["35mm", "50mm"], films: ["Kodak Tri-X", "Kodak Portra"], techniques: ["长期项目", "环境肖像", "自然光与闪光灯结合"] },
+    practice: ["选择一个社区或群体深入拍摄", "与被摄者建立信任关系", "用相机作为理解他人的工具"],
+    resources: { books: ["Subway", "Brooklyn Gang", "East 100th Street", "Central Park"], films: [] }
+  },
+  {
+    id: "joel-meyerowitz",
+    name: { zh: "乔尔·迈耶罗维茨", en: "Joel Meyerowitz" },
+    nationality: "美国",
+    flag: "🇺🇸",
+    birth: 1938,
+    death: null,
+    era: "1980-2000",
+    genres: ["街头", "风光"],
+    avatar: "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?w=200&h=200&fit=crop",
+    quote: "色彩是我观看世界的方式。",
+    bio: [
+      "乔尔·迈耶罗维茨是彩色摄影的先驱之一，为彩色摄影作为艺术形式的确立做出重要贡献。",
+      "他从黑白街头摄影转向彩色，并在鳕鱼角创作了大量彩色风光作品。",
+      "911事件后，他是唯一被允许进入世贸中心废墟拍摄的摄影师。"
+    ],
+    philosophy: [
+      "色彩觉醒：色彩本身就是内容",
+      "光的变化：追逐黄金时刻的光线",
+      "大画幅美学：精确与细节的追求",
+      "双重实践：街头速写与沉思风光并行"
+    ],
+    quotes: ["彩色摄影让我看到了生活的丰富性。", "摄影是关于光的冥想。"],
+    influencedBy: ["robert-frank"],
+    influenced: [],
+    works: [
+      { id: "jm-001", title: { zh: "鳕鱼角", en: "Cape Cod" }, year: 1976, location: { zh: "美国马萨诸塞州", en: "Massachusetts, USA" }, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", camera: "Deardorff 8x10", technique: "黄金时刻，大画幅", significance: "彩色风光摄影的标杆。" },
+      { id: "jm-002", title: { zh: "帝国大厦", en: "Empire State Building" }, year: 1978, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?w=800", camera: "Deardorff 8x10", technique: "建筑与光线", significance: "大画幅城市摄影的典范。" },
+      { id: "jm-003", title: { zh: "世贸中心档案", en: "Aftermath" }, year: 2001, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800", camera: "Deardorff 8x10", technique: "灾难纪实", significance: "911废墟的官方视觉记录。" },
+      { id: "jm-004", title: { zh: "普罗旺斯", en: "Provence" }, year: 1988, location: { zh: "法国普罗旺斯", en: "Provence, France" }, image: "https://images.unsplash.com/photo-1499002238440-d264edd596ec?w=800", camera: "Deardorff 8x10", technique: "田园风光", significance: "法国乡村的光与色。" },
+      { id: "jm-005", title: { zh: "纽约街头", en: "New York Street" }, year: 1963, location: { zh: "美国纽约", en: "New York, USA" }, image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800", camera: "Leica M3", technique: "彩色街头", significance: "早期彩色街头摄影。" },
+      { id: "jm-006", title: { zh: "意大利海岸", en: "Italian Coast" }, year: 1990, location: { zh: "意大利", en: "Italy" }, image: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800", camera: "Deardorff 8x10", technique: "地中海光线", significance: "欧洲风光的色彩研究。" },
+      { id: "jm-007", title: { zh: "红色内饰", en: "Red Interior" }, year: 1977, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800", camera: "Deardorff 8x10", technique: "室内彩色", significance: "室内空间的色彩表达。" },
+      { id: "jm-008", title: { zh: "游泳池", en: "Pool" }, year: 1978, location: { zh: "美国", en: "USA" }, image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800", camera: "Deardorff 8x10", technique: "水与光的研究", significance: "色彩与光线的完美结合。" }
+    ],
+    gear: { cameras: ["Leica M3", "Deardorff 8x10大画幅"], lenses: ["35mm", "多焦段大画幅镜头"], films: ["Kodachrome", "Ektacolor"], techniques: ["大画幅", "黄金时刻", "彩色摄影"] },
+    practice: ["在日出日落时拍摄，观察光线变化", "尝试大画幅相机的精确构图", "关注色彩之间的关系"],
+    resources: { books: ["Cape Light", "Aftermath", "Taking My Time"], films: [] }
+  },
+  {
+    id: "martin-parr",
+    name: { zh: "马丁·帕尔", en: "Martin Parr" },
+    nationality: "英国",
+    flag: "🇬🇧",
+    birth: 1952,
+    death: null,
+    era: "1980-2000",
+    genres: ["纪实", "街头"],
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+    quote: "我用摄影来探索我们如何生活。",
+    bio: [
+      "马丁·帕尔是英国最具影响力的当代摄影师之一，玛格南图片社成员。",
+      "他以讽刺性的彩色摄影著称，用闪光灯和饱和色彩记录现代消费文化。",
+      "他的作品既是对英国中产阶级生活的记录，也是对全球化和大众旅游的批评。"
+    ],
+    philosophy: [
+      "彩色讽刺：用鲜艳色彩揭示庸俗",
+      "闪光灯美学：直接闪光创造超现实感",
+      "消费批评：记录物质文化的荒诞",
+      "收集癖：摄影书和明信片的狂热收藏者"
+    ],
+    quotes: ["我拍摄我不理解的事物。", "摄影让你有借口好奇。"],
+    influencedBy: ["tony-ray-jones"],
+    influenced: [],
+    works: [
+      { id: "mp-001", title: { zh: "最后的度假村", en: "The Last Resort" }, year: 1986, location: { zh: "英国新布莱顿", en: "New Brighton, UK" }, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", camera: "Plaubel Makina", technique: "闪光灯彩色", significance: "英国工人阶级休闲的讽刺记录。" },
+      { id: "mp-002", title: { zh: "小世界", en: "Small World" }, year: 1995, location: { zh: "世界各地", en: "Worldwide" }, image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800", camera: "Plaubel Makina", technique: "旅游文化纪实", significance: "对全球大众旅游的批评。" },
+      { id: "mp-003", title: { zh: "常识", en: "Common Sense" }, year: 1999, location: { zh: "世界各地", en: "Worldwide" }, image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800", camera: "微距镜头", technique: "食物特写", significance: "用微距揭示食物的荒诞。" },
+      { id: "mp-004", title: { zh: "无聊的情侣", en: "Bored Couples" }, year: 1993, location: { zh: "英国", en: "UK" }, image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800", camera: "Plaubel Makina", technique: "餐厅偷拍", significance: "对现代关系的幽默观察。" },
+      { id: "mp-005", title: { zh: "英国海滩", en: "British Beach" }, year: 1985, location: { zh: "英国", en: "UK" }, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", camera: "Plaubel Makina", technique: "海滩文化", significance: "英国海滨度假的视觉研究。" },
+      { id: "mp-006", title: { zh: "奢侈品", en: "Luxury" }, year: 2009, location: { zh: "世界各地", en: "Worldwide" }, image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800", camera: "数码相机", technique: "高端消费纪实", significance: "对奢侈品文化的讽刺。" },
+      { id: "mp-007", title: { zh: "自拍", en: "Autoportrait" }, year: 2000, location: { zh: "世界各地", en: "Worldwide" }, image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800", camera: "各种相机", technique: "与当地人合影", significance: "以幽默方式探索自拍文化。" },
+      { id: "mp-008", title: { zh: "无聊明信片", en: "Boring Postcards" }, year: 1999, location: { zh: "世界各地", en: "Worldwide" }, image: "https://images.unsplash.com/photo-1500485035595-cbe6f645feb1?w=800", camera: "收集品", technique: "明信片收藏", significance: "对庸俗美学的研究。" }
+    ],
+    gear: { cameras: ["Plaubel Makina 67", "Fuji GF670", "Leica Q"], lenses: ["80mm", "微距镜头"], films: ["Kodak Portra", "Fuji Velvia"], techniques: ["环形闪光灯", "高饱和度", "微距"] },
+    practice: ["在旅游景点观察游客行为", "使用闪光灯创造超现实感", "关注消费文化的视觉符号"],
+    resources: { books: ["The Last Resort", "Small World", "Common Sense", "Life's a Beach"], films: [] }
+  },
+  {
+    id: "trent-parke",
+    name: { zh: "特伦特·帕克", en: "Trent Parke" },
+    nationality: "澳大利亚",
+    flag: "🇦🇺",
+    birth: 1971,
+    death: null,
+    era: "2000至今",
+    genres: ["街头", "纯艺术"],
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    quote: "我追逐光。",
+    bio: [
+      "特伦特·帕克是澳大利亚最重要的当代摄影师，玛格南图片社首位澳大利亚成员。",
+      "他以戏剧性的光影和超现实的街头摄影著称，将新闻摄影提升到艺术高度。",
+      "他对澳大利亚内陆和城市生活的记录展现了独特的视觉诗意。"
+    ],
+    philosophy: [
+      "追光者：光是最重要的主题",
+      "戏剧性瞬间：等待完美的光线和时刻",
+      "澳大利亚视角：用独特眼光看待祖国",
+      "黑白与彩色：两种语言讲述不同故事"
+    ],
+    quotes: ["光是摄影的灵魂。", "我想捕捉那些让我窒息的时刻。"],
+    influencedBy: ["daido-moriyama", "william-klein"],
+    influenced: [],
+    works: [
+      { id: "tp-001", title: { zh: "梦/生活", en: "Dream/Life" }, year: 1999, location: { zh: "澳大利亚悉尼", en: "Sydney, Australia" }, image: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800", camera: "Leica M6", technique: "强烈光影对比", significance: "澳大利亚街头的戏剧性诠释。" },
+      { id: "tp-002", title: { zh: "黑玫瑰", en: "The Black Rose" }, year: 2015, location: { zh: "澳大利亚", en: "Australia" }, image: "https://images.unsplash.com/photo-1495467033336-2effd8753d51?w=800", camera: "数码相机", technique: "超现实叙事", significance: "对澳大利亚历史的个人诠释。" },
+      { id: "tp-003", title: { zh: "分钟到午夜", en: "Minutes to Midnight" }, year: 2013, location: { zh: "澳大利亚内陆", en: "Australian Outback" }, image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800", camera: "数码相机", technique: "彩色风光", significance: "对澳大利亚内陆的诗意记录。" },
+      { id: "tp-004", title: { zh: "悉尼阳光", en: "Sydney Sunlight" }, year: 2001, location: { zh: "澳大利亚悉尼", en: "Sydney, Australia" }, image: "https://images.unsplash.com/photo-1524293581917-878a6d017c71?w=800", camera: "Leica M6", technique: "高对比度街头", significance: "城市光影的完美捕捉。" },
+      { id: "tp-005", title: { zh: "圣诞岛", en: "Christmas Island" }, year: 2008, location: { zh: "澳大利亚圣诞岛", en: "Christmas Island" }, image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", camera: "Leica M8", technique: "岛屿纪实", significance: "偏远岛屿的生活记录。" },
+      { id: "tp-006", title: { zh: "无题剪影", en: "Untitled Silhouette" }, year: 2003, location: { zh: "澳大利亚", en: "Australia" }, image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800", camera: "Leica M6", technique: "剪影逆光", significance: "光影艺术的极致表达。" },
+      { id: "tp-007", title: { zh: "城市幽灵", en: "City Ghost" }, year: 2000, location: { zh: "澳大利亚悉尼", en: "Sydney, Australia" }, image: "https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?w=800", camera: "Leica M6", technique: "动态模糊剪影", significance: "将城市人物转化为幽灵般的存在。" },
+      { id: "tp-008", title: { zh: "澳大利亚内陆", en: "Outback Australia" }, year: 2007, location: { zh: "澳大利亚内陆", en: "Australian Outback" }, image: "https://images.unsplash.com/photo-1494233892892-84542a694e72?w=800", camera: "数码相机", technique: "广阔风光", significance: "对澳大利亚荒野的独特视角。" }
+    ],
+    gear: { cameras: ["Leica M6", "Leica M8", "Leica SL"], lenses: ["35mm", "50mm"], films: ["Kodak Tri-X"], techniques: ["等待光线", "高对比度", "剪影"] },
+    practice: ["研究光线在一天中的变化", "在强烈阳光下寻找戏剧性瞬间", "用慢速快门创造动态效果"],
+    resources: { books: ["Dream/Life", "Minutes to Midnight", "The Black Rose"], films: [] }
   }
 ];
 
